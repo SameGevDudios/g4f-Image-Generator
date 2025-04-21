@@ -18,3 +18,7 @@ A simple image generator built with the power of the **g4f** Python library. Pro
 ## 📦 Requirements
 
 - [`g4f`](https://pypi.org/project/g4f/) library
+
+---
+## 🐞 Known Issues
+- In very rare cases generates unreadable image files.
