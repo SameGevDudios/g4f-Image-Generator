@@ -54,10 +54,10 @@ def image_from_reference(reference_path):
 
 # Main
 def main():
+    prompt = input("Provide a prompt: ")
+
     current_folder = ""
     current_time = datetime.now().strftime("%d-%m-%y_%H-%M-%S")
-
-    prompt = input("Provide a prompt: ")
 
     # All available models: sdxl-turbo, flux, flux-pro, flux-dev, flux-shcnell, dall-e-3, midjourney
     models = ["sdxl-turbo", "flux", "flux-pro", "flux-dev", "flux-shcnell", "dall-e-3", "midjourney"]
